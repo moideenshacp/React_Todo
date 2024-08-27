@@ -1,0 +1,51 @@
+.item{
+    width: 500px;
+    color: #353935;
+    font-size: 20px;
+    margin: 0 auto;
+}
+.itemName{
+    font-weight: bold;
+    padding: 20px;
+    cursor: pointer;
+
+
+}
+.line{
+    border: 3px solid#f4f4f4;
+}
+.delete{
+    margin-left: 8px;
+    float: right;
+    padding: 12px 20px;
+    border: none;
+    background-color: #f7ca18;
+    color:white;
+    margin-top: -5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.completed{
+    text-decoration: line-through;
+    color:green;
+}
+.edit {
+    background-color:  #f7ca18;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    float: right;
+    margin-top: -5px;
+
+
+  }
+
+  .input{
+    border: none;
+    font-size: 20px; 
+}
+.input:focus{
+    outline: none;
+}
